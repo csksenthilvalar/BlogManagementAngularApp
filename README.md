@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
 
+This repository contains the code for a Blog Management System , which allows users to create and manage blog posts.
+
+The Web API Via CURD operation is performed-->https://localhost:7000/api/JSONBlogMngmt
+
+Data Storage in local JSON file as a mock database.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

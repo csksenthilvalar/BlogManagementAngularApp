@@ -1,0 +1,58 @@
+<div class="card-box">
+    <form  [formGroup]="registerform"  (ngSubmit)="SaveBlogs()">
+
+   
+    <div class="row">
+      <h2 style="text-align: center;" >Add/Edit Blog</h2>
+    </div>
+    <div class="row">
+      <div class="offset-lg-3 col-lg-6">
+          <div class="form-group">
+              <label for="txtid">ID</label>
+              <input type="text" id="txtid" class="form-control" formControlName="id" autocomplete="off" readonly />
+          </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="offset-lg-3 col-lg-6">
+        <div class="form-group">
+            <label for="txttext">Text</label>
+            <input type="text" id="txttext" class="form-control"  formControlName="blogDesc" autocomplete="off"  />
+           
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="offset-lg-3 col-lg-6">
+        <div class="form-group">
+            <label for="txtusername">UserName</label>
+            <input type="text" id="txtusername" class="form-control"  formControlName="userName" autocomplete="off" readonly />
+          
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="offset-lg-3 col-lg-6">
+        <div class="form-group">
+            <label for="txtcreateddate">CreatedDate</label>
+            <input type="text" id="txtcreateddate" class="form-control"  formControlName="createdDate" autocomplete="off"  readonly/>
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="offset-lg-3 col-lg-2">
+      <br>
+        <div class="form-group">
+           <button type="submit" class="btn btn-primary btn-lg btn-block" >Submit</button>
+          
+           <a routerLink="/blog" id="addbtn"  class="btn btn-primary btn-lg btn-block" >Cancel</a>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <br>
+        <span class={{messageclass}}>{{message}}</span>
+    </div>
+  </div>
+</form>
+  
+  </div>

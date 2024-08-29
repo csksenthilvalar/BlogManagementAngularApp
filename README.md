@@ -22,7 +22,7 @@ This repository contains the code for a **Blog Management System** built using A
 ### **Technologies Used:**
 
 - **Angular:** The frontend framework used for building the application.
-- **Angular Material:** For UI components and styling.
+- **BootStrap:** For UI components and styling.
 - **RxJS:** Reactive programming library for managing asynchronous operations.
 - **NgRx (optional):** State management for handling application state.
 - **HTTPClient:** To make API requests to the backend server.-

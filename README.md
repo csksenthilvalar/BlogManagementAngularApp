@@ -6,8 +6,8 @@ This repository contains the code for a **Blog Management System** built using A
 
  **Blog Post Management:**
    - **Create:** Users can create new blog posts with a rich text editor.
-   - **Read:** Display a list of all blog posts with options to filter by categories or tags.
-   - **Update:** Edit existing blog posts, including the title, content, and associated tags or categories.
+   - **Read:** Display a list of all blog posts with options to filter by ids.
+   - **Update:** Edit existing blog posts, including the  content.
    - **Delete:** Remove blog posts with confirmation prompts to avoid accidental deletion.
 
  **Commenting System:**

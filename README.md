@@ -31,11 +31,9 @@ This repository contains the code for a **Blog Management System** built using A
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
 
 
-This repository contains the code for a Blog Management System , which allows users to create and manage blog posts.
 
-The Web API Via CURD operation is performed-->https://localhost:7000/api/JSONBlogMngmt
 
-Data Storage in local JSON file as a mock database.
+
 
 ## **Getting Started:**
 
@@ -44,7 +42,7 @@ Data Storage in local JSON file as a mock database.
 
 3. **Set Up Environment Configuration:**
    - Update the `environment.ts` file with the correct API endpoint URL (e.g., for development and production environments):
-   - apiUrl: 'http://localhost:7000/api' // Update with your backend API URL   
+   - apiUrl: 'http://localhost:7000/api'  or 'https://localhost:7000/api/JSONBlogMngmt'// Update with your backend API URL   
 
 4. **Run the Application:**
    - Use the Angular CLI to start the development server:     
